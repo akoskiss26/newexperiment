@@ -17,3 +17,21 @@
 </ul>
 <h1> @Model[1].Name </h1>
 
+<table style="width:50%">
+    <tr>
+        <th>név</th>
+        <th>szabadság</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.Name</td>      
+        <td>@item.Days</td>
+    </tr> 
+    }
+
+    
+    
+</table>
+
