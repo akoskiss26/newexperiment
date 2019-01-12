@@ -1,0 +1,19 @@
+﻿
+@model List<Holidaysheet.Models.Holiday>
+@{
+    ViewBag.Title = "Holiday";
+}
+
+<h2>Holiday</h2>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name </li>
+    }
+
+
+
+</ul>
+<h1> @Model[1].Name </h1>
+
