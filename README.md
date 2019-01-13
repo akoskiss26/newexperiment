@@ -12,3 +12,5 @@ a github readme megismerése
 - view fgv-ben @model ......  sorba beírjuk a lista típusát, teljes elérési névvel
 - foreach ciklussal kiolvassuk a lista elemeit
 
+## saját 
+
